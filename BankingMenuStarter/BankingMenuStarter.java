@@ -49,7 +49,7 @@ public class BankingMenuStarter {
                         break;
                     }
                     else balance -= withdrawalAmount;
-                    System.out.printf("Deposit Successful. New balance: %.2f%n", balance);
+                    System.out.printf("Withdrawal Successful. New balance: %.2f%n", balance);
                     break;
 
                 // TODO 6: If choice is 4, display an exit message.
